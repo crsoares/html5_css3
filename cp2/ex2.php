@@ -3,6 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!--<meta name="viewport" content="initial-scale=2.0,width=device-width"/>-->
+	<!--<meta name="viewport" content="width=device-width, maximum-scale=3, minimun-scale=0.5" />-->
+	<!--<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Estudos css3 html5</title>
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
