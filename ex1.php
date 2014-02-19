@@ -9,7 +9,8 @@
 	      projection" >-->
 	      
 	<style>
-		@import url("css/templates.css") screen and (max-width: 460px);
+		/*@import url("css/templates.css") screen and (max-width: 460px);*/
+		@import url("css/templates.css") screen and (min-width: 200px) and (max-width: 360px);
 		
 		a {
 			float: left;
