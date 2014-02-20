@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-teste
 	<title>html5 e css3</title>
 	<!--<link type="text/css" href="css/templates.css" rel="stylesheet" media="screen" >-->
 	<!--<link type="text/css" href="css/templates.css" rel="stylesheet" media="not screen and (orientation: portrait)" >-->
