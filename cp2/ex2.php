@@ -22,13 +22,13 @@
 				</ul>
 			</div>
 		</div>
-		<!-- a barra lateral -->
-		<div id="sidebar">
-			<p>aqui é a barra lateral</p>
-		</div>
 		<!-- o conteúdo -->
 		<div id="content">
 			<p>aqui é o conteúdo</p>
+		</div>
+		<!-- a barra lateral -->
+		<div id="sidebar">
+			<p>aqui é a barra lateral</p>
 		</div>
 		<!-- o rodapé -->
 		<div id="footer">
