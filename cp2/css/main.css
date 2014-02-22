@@ -1,8 +1,16 @@
+img, object, video, embed {
+	max-width: 100%;
+}
+
+.sideBlock img {
+	max-width: 45%;
+}
+
 #wrapper {
 	margin-right: auto;
 	margin-left: auto;
 	width: 96%;/*Segurando mais externa DIV*/
-	border: 1px solid red;
+	max-width: 1414px;
 }
 
 #header {
@@ -14,14 +22,30 @@
 #navigation {
 	padding-bottom: 25px;
 	margin-top: 26px;
-	margin-left: -10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	width: 72.708333333%; /* 698 / 960 = 72.708333333 */
+	margin-left: -1.0416667%;/* 10 / 960 = 1.0416667 */
+	padding-right: 1.0416667%;/* 10 / 960 = 1.0416667 */
+	padding-left: 1.0416667%;/* 10 / 960 = 1.0416667 */
+	width: 97.9166667%; /* 940 / 960 = 72.708333333 */
+	background-repeat: repeat-x;
+	background-image: url(../img/atwiNavBg.png);
+	border-bottom-color: #bfbfbf;
+	border-bottom-style: double;
+	border-bottom-width: 4px;
 }
 
 #navigation ul li {
 	display: inline-block;
+	margin-right: 2.6595745%; /* 25 / 940 = 2.6595745 */
+}
+
+#navigation ul li a {
+	height: 42px;
+	line-height: 42px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, "Lucida Grande", Verdana, sans-serif;
+	font-size: 27px;
+	color: black;
 }
 
 #content {
@@ -29,6 +53,19 @@
 	margin-right: 10px;
 	float: right;
 	width: 72.708333333%;/* 698 / 960 = 72.708333333 */	
+}
+
+#content h1 {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	text-tansform: uppercase;
+	font-size: 4.3125em;/* 69 / 16 = 4.3125 */
+}
+
+#content h1 span {
+	display: block;
+	line-height: 1.052631579em;/* 40 / 38 = 1.052631579 */
+	color: #757474;
+	font-size: .550724638em;/* 38 / 69 = .550724638 */
 }
 
 #sidebar {
@@ -50,6 +87,26 @@
 	margin-left: 10px;
 	clear: both;
 	width: 97.916666667%;/* 940 / 960 =  */
+}
+
+#logo {
+	display: block;
+	padding-top: 75px;
+	color: #0d0c0c;
+	text-transform: uppercase;
+	font-family: Arial, "Lucida Grande", Verdana, sans-serif;
+	font-size: 3em;/* 48 / 16 = 3 */
+}
+
+#logo span {
+	color: #dfdada;
+}
+
+.oscarMain {
+	float: left;
+	margin-top: -28px;
+	width: 28.9398281%;/* 698 / 202 =  28.9398281*/
+	max-width: 202px;
 }
 
 @media screen and (max-width: 768px) {
